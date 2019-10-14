@@ -9,12 +9,12 @@ This code is modified from [RetinaNet](https://github.com/yhenon/pytorch-retinan
 
 At last, if you find the paper and code useful in your research, please consider citing:
 
-@article{deng2019stela,
-    Title = {STELA: A Real-Time Scene Text Detector with Learned Anchor},
-    Author = {Linjie Deng and Yanxiang Gong and Xinchen Lu and Yi Lin and Zheng Ma and Mei Xie},
-    Journal = {arXiv preprint arXiv:1909.07549},
-    Year = {2019}
-}
+	@article{deng2019stela,
+		Title = {STELA: A Real-Time Scene Text Detector with Learned Anchor},
+		Author = {Linjie Deng and Yanxiang Gong and Xinchen Lu and Yi Lin and Zheng Ma and Mei Xie},
+		Journal = {arXiv preprint arXiv:1909.07549},
+		Year = {2019}
+	}
 
 
 

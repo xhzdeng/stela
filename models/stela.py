@@ -93,8 +93,8 @@ class STELA(nn.Module):
                 anchors_list.append(refined_anchors)
                 offsets_list.append(bbox_pred)
 
-        cls_score = torch.cat([self.cls_head(x) for x in features], dim=1)
-        bbox_pred = torch.cat([self.reg_head(x) for x in features], dim=1)
+        cls_score = torch.cat([self.cls_head(feature) for feature in features], dim=1)
+        bbox_pred = torch.cat([self.reg_head(feature) for feature in features], dim=1)
         if self.training:
             losses = dict()
             if self.num_refining > 0:

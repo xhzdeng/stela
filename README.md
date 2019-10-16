@@ -5,7 +5,7 @@ STELA is a simple and intuitive method for multi-oriented text detection based o
 
 ### Installation
 
-This code is modified from [RetinaNet](https://github.com/yhenon/pytorch-retinanet) and [maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark). It has been tested on Ubuntu 16.04 with CUDA 9.0 and [PyTorch](https://github.com/pytorch/pytorch) 1.1. If you have some issues, please leave a message.
+This code is modified from [RetinaNet](https://github.com/yhenon/pytorch-retinanet) and [maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark). It has been tested on Ubuntu 16.04 with CUDA 9.0 and [PyTorch](https://github.com/pytorch/pytorch) 1.1. If you have any issue, please leave a message.
 
 0. Clone this repository
     ```

@@ -19,11 +19,11 @@ class VOCDataset(data.Dataset):
     """"""
     def __init__(self,
                  root_dir=None,
-                 iamge_set='trainval',
+                 image_set='trainval',
                  random_flip=True,
                  only_latin=True):
         self.data_path = root_dir
-        self.image_set = iamge_set
+        self.image_set = image_set
         self.image_ext = [".bmp", ".png", ".jpg", ".jpeg", ".JPG"]
         self.image_list = self._load_image_names()
         self.classes = ('__background__', 'text')
